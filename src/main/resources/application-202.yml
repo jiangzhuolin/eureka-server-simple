@@ -15,3 +15,5 @@ eureka:
     fetch-registry: true
   instance:
     hostname: hadoop3
+  server:
+    enable-self-preservation: false
